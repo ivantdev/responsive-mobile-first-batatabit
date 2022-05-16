@@ -1,0 +1,30 @@
+/* 
+    Declaración de variables
+ */
+:root {
+    --bitcoin-orange: #f7931a;
+    --soft-orange: #FFE9D5;
+    --secondary-blue: #1A9AF7;
+    --soft-blue: #e7f5ff;
+    --warm-brack: #201e1c;
+    --black: #282623;
+    --gray: #bababa;
+    --off-white: #faf8f7;
+    --just-white: #fff;
+}
+
+/*
+Reseteo de estilos
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
