@@ -6,7 +6,7 @@
     --soft-orange: #FFE9D5;
     --secondary-blue: #1A9AF7;
     --soft-blue: #e7f5ff;
-    --warm-brack: #201e1c;
+    --warm-black: #201e1c;
     --black: #282623;
     --gray: #bababa;
     --off-white: #faf8f7;
@@ -261,9 +261,108 @@ main {
 .currency-table__date p {
     font-size: 1.2rem;
     line-height: 1.5rem;
-    color: var(--warm-brack);
+    color: var(--warm-black);
 }
 
 .table-date__soft-blue {
     background-color: var(--soft-blue);
+}
+
+.main-product-detail {
+    position: relative;
+    width: 100%;
+    min-height: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--warm-black);
+}
+
+.product-detail__batata-logo {
+    position: absolute;
+    left: calc(50% - 40px/2);
+    top: calc(0% - 25px/2);
+    width: 40px;
+    height: 25px;
+    background-image: url('./assets/icons/batata.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.product-detail__title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.product-detail__title h2 {
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+
+.product-detail__title p {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
+.product-detail__card {
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--black);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.product-detail__card .card__icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.clock {
+    background-image: url(./assets/icons/clock.svg);
+}
+
+.dollar-sign {
+    background-image: url(./assets/icons/dollar-sign.svg);
+}
+
+.eye {
+    background-image: url(./assets/icons/eye.svg);
+}
+
+.check-circle {
+    background-image: url(./assets/icons/check-circle.svg);
+}
+
+.product__card-title {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+
+.product__card-body {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
 }
