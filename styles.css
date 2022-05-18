@@ -156,12 +156,21 @@ main {
     color: #757575;
 }
 
+.main-tables-container {
+    display: flex;
+    height: 366px;
+    overflow: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
 .main-currency-table {
+    scroll-snap-align: center;
     width: 70%;
     min-width: 235px;
     max-width: 500px;
     height: 360px;
-    margin: 0 auto;
+    margin: 0 30px;
     font-family: "Inter", sans-serif;
 }
 
